@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Responsive Web</title>
+</head>
+<body>
+
+<!-- INICIO CABECERA -->
+<a href="../index.html">
+        <img class="cinta" src="../img/cinta.png" alt="cinta"></a>
+    <div id="cabecera">
+            <img class="logo" src="../img/logo.png" alt="logo">
+
+        <div class="nav-wrapper">
+                <nav class="nav-menu">
+                   <ul class="clearfix">
+            
+                      <li><img src="../img/menu.png" alt="">
+                      <ul class="sub-menu">
+                          <center>
+                         <li><a href="../index.html#conejos">CONEJOS</a></li>
+                         <li><a href="#">REGISTRO</a></li>
+                         <li><a href="../about-us/about.html">ABOUT US</a></li>
+                        </center>
+                      </ul>
+                      </li>
+                      
+                   </ul>
+                </nav>
+             </div>
+
+        <div class="menu2">
+            <a href="../index.html#conejos"><img class="menu3" src="../img/menu1.png" alt="menu1"></a>
+            <a href="#"><img class="menu4" src="../img/menu2.png" alt="menu2"></a>
+            <a href="../about-us/about.html"><img class="menu5" src="../img/menu3.png" alt="menu3"></a>
+        </div>
+    </div>
+
+    <div id="encabezado">
+        <p class="texto1"> ADOPTA UN AMIGO </p>
+        <p class="texto2"> Ellos te necesitan </p>
+
+        <div id="search-box">
+            <form method="get" action="/search.forum" id="search">
+                <p class="nomargin">
+                    <input type="text" name="search_keywords" id="keywords" maxlength="128" class="inputbox search" value="Buscar..." onclick="if (this.value == 'Buscar...') this.value = '';" onblur="if (this.value == '') this.value = 'Buscar...';" />
+                    <input class="button2" type="submit" value="Buscar" />
+                </p>
+            </form>
+        </div>
+    </div>
+
+<!-- FINAL CABECERA -->
+
+<div id="contenedorcontacto">
+        <div class="datosalumno">
+        <p><h2>Usuario</h2> </p>
+            <ul>
+                <li><b>Nombre:</b> Silvia</li>
+                <li><b>Apellido 1:</b> Rumí</li>
+                <li><b>Apellido 2:</b> Rubio</li>
+                <li><b>Nombre Mascota:</b> Bemi</li>
+                <li><b>Correo:</b> srumi.design@gmail.com</a></li>
+            </ul> 
+        </div>
+
+    <div class="nuevosdatos">   
+    <p><h2 id="registro-link">Regístrate</h2></p>
+        <form action="ejemplo.php" method="get"> <p><b>Nombre y apellidos:</b>
+            <input type="text" name="Nombre" size="21" maxlength="30" /></p>
+            
+            <p><b>Nombre mascota:</b>
+                <input type="text" name="Nombre" size="24"
+                maxlength="30" />
+            </p>
+
+            <p><b>Correo:</b>
+                <input type="text" name="Nombre" size="36"
+                maxlength="30" />
+            </p>
+            
+            <p><b>Género:</b>
+                    <br />
+                    <input type="radio" name="género" value="hombre"
+                checked="checked" /> Hombre
+                <input type="radio" name="género" value="mujer" />
+                Mujer
+                    <input type="radio" name="género" value="abstenerse" />
+                Abstenerse
+            </p>
+            <p><b>¿Qué piensas de la adopción?</b></p>
+            <textarea name="comments" cols="44%" rows="4">Escribe aquí...</textarea>
+
+            <p><b>Selecciona tu raza favorita:</b></p> <select name="asignaturas">
+                    <option value="Belier">Belier</option>
+                    <option value="Mini Lop">Mini Lop</option>
+                    <option value="Cabeza de león">Cabeza de León</option>
+            </select> 
+            <p class="submit1"><input type="submit" value="ENVIAR" id="submit" /></p>
+        </form>
+    </div>
+</div>
+
+<!-- PIE DE PÁGINA -->
+
+<div id="pie-de-pagina">
+    <center>
+   
+       <p> <img src="../img/logo2.png" alt="logo" width="10%">  <a href="#"><img src="../img/flecha.png" alt="flecha" width="10%"></a></p>
+       <p class="pie">  ©Bunnyzone all rights reserved <br>
+        Asociación sin ánimo de lucro para ayuda y rescate de conejos.
+    </p>
+</center>
+</div>
+
+<!-- FIN PIE DE PÁGINA -->
+
+</body>
+</html>
